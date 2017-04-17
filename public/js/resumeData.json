@@ -84,41 +84,57 @@
         "description":"My role entailed providing detailed analysis of businesses being serviced by the top account executives in White Pages in order to match the digital and print solutions offered by the company to the client's business needs in terms of digital presence. Other roles include digital project management, online coaching and sharing of new trends in web technologies that helped the team in their digital knowledge."
       }
     ],
+    "passion":{ "description": "I am a voracious learned and have kept myself up to date with the mostrelevant skills in these demanding times. Most recently I have focused on learning Functional and Objective Programming in Javascript to be able to utilise these skills in my future career goals. My development is always geared towards striking a balance in gaining analytical and artistic knowledge that I use as tools of the trade."
+    },
     "skills":[
       {
         "name":"Photoshop",
+        "shortname": "Photoshop",
         "level":"70%"
       },
       {
         "name":"Illustrator",
+        "shortname": "Illustrator",
         "level":"70%"
       },
       {
         "name":"CSS",
+        "shortname": "CSS",
         "level":"80%"
       },
       {
         "name":"HTML5",
+        "shortname": "HTML5",
         "level":"90%"
       },
       {
         "name":"Javascript",
+        "shortname": "Javascript",
         "level":"80%"
       },
       {
         "name":"NodeJS",
+        "shortname": "NodeJS",
         "level":"80%"
       },
       {
-        "name":"Ruby and Ruby on Rails",
-        "level":"80%"
+        "name":"AngularJS",
+        "shortname": "AngularJS",
+        "level":"70%"
       },
       {
         "name":"ReactJS and Redux",
+        "shortname": "React",
         "level":"80%"
       },
       {
         "name":"jQuery",
+        "shortname": "jQuery",
+        "level":"80%"
+      },
+      {
+        "name":"Ruby and Ruby on Rails",
+        "shortname": "Ruby",
         "level":"80%"
       }
     ]

@@ -24,7 +24,7 @@
 
    <!-- Script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="js/supps/modernizr.js"></script>
 
   <!-- Angular Scripts
    ================================================== -->
@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body ng-controller="ResumeController">
 
    <!-- Header
    ================================================== -->
@@ -64,19 +64,18 @@
       </nav> <!-- end #nav-wrap -->
 
       <div class="row banner">
-         <div class="banner-text" ng-controller="ResumeController">
+         <div class="banner-text">
             <h1 class="responsive-headline">I'm {{main.name}}.</h1>
             <h3>I'm a {{main.address.city.substring(15)}} based <span>{{main.occupation}}</span>, <span>{{source.main.description}}</span> <a class="smoothscroll" href="#about">start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              <li><a ng-href="{{social[0].url}}"><i class="fa fa-{{social[0].name}}"></i></a></li>
+              <li><a ng-href="{{social[1].url}}"><i class="fa fa-{{social[1].name}}"></i></a></li>
+              <li><a ng-href="{{social[2].url}}"><i class="fa fa-{{social[2].name}}"></i></a></li>
+              <li><a ng-href="{{social[3].url}}"><i class="fa fa-{{social[3].name}}"></i></a></li>
+              <li><a ng-href="{{social[4].url}}"><i class="fa fa-{{social[4].name}}"></i></a></li>
+              <li><a ng-href="{{social[5].url}}"><i class="fa fa-{{social[5].name}}"></i></a></li>
             </ul>
          </div>
       </div>
@@ -90,7 +89,7 @@
 
    <!-- About Section
    ================================================== -->
-   <section id="about" ng-controller="ResumeController">
+   <section id="about">
 
       <div class="row">
 
@@ -151,45 +150,17 @@
          <div class="three columns header-col">
             <h1><span>Education</span></h1>
          </div>
-
-         <div class="nine columns main-col">
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>University of Life</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
-
+         <div class="nine columns main-col" >
+            <div class="row item" ng-repeat="item in education">
+               <div class="twelve columns" >
+                  <h3>{{ item.school }}</h3>
+                  <p class="info">{{item.degree}} <span>&bull;</span> <em class="date">{{ item.graduated }}</em></p>
                   <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                    {{ item.description }}
                   </p>
-
                </div>
 
             </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
@@ -205,42 +176,18 @@
 
          <div class="nine columns main-col">
 
-            <div class="row item">
+            <div class="row item" ng-repeat="item in work">
 
                <div class="twelve columns">
 
-                  <h3>Awesome Design Studio</h3>
-                  <p class="info">Senior UX Designer <span>&bull;</span> <em class="date">March 2010 - Present</em></p>
+                  <h3>{{ item.company }}</h3>
+                  <p class="info">{{ item.title }}<span>&bull;</span> <em class="date">{{ item.years}}</em></p>
 
                   <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                    {{ item.description }}
                   </p>
-
                </div>
-
             </div> <!-- item end -->
-
-            <div class="row item">
-
-               <div class="twelve columns">
-
-                  <h3>Super Cool Studio</h3>
-                  <p class="info">UX Designer <span>&bull;</span> <em class="date">March 2007 - February 2010</em></p>
-
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
-
-               </div>
-
-            </div> <!-- item end -->
-
          </div> <!-- main-col end -->
 
       </div> <!-- End Work -->
@@ -256,21 +203,14 @@
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
+            <p>
+              {{ skills[0].description }}
             </p>
 
-				<div class="bars">
+				<div class="bars" ng-repeat="item in skills">
 
 				   <ul class="skills">
-					   <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-						<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-						<li><span class="bar-expand css"></span><em>CSS</em></li>
-						<li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+					   <li><span class="bar-expand {{item.shortname.toLowerCase()}}"></span><em>{{item.name}}</em></li>
 					</ul>
 
 				</div><!-- end skill-bars -->
@@ -789,16 +729,15 @@
 
       <div class="row">
 
-         <div class="twelve columns">
+         <div class="twelve columns" ng-controller="ResumeController">
 
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               <li><a ng-href="{{social[0].url}}"><i class="fa fa-{{social[0].name}}"></i></a></li>
+               <li><a ng-href="{{social[1].url}}"><i class="fa fa-{{social[1].name}}"></i></a></li>
+               <li><a ng-href="{{social[2].url}}"><i class="fa fa-{{social[2].name}}"></i></a></li>
+               <li><a ng-href="{{social[3].url}}"><i class="fa fa-{{social[3].name}}"></i></a></li>
+               <li><a ng-href="{{social[4].url}}"><i class="fa fa-{{social[4].name}}"></i></a></li>
+               <li><a ng-href="{{social[5].url}}"><i class="fa fa-{{social[5].name}}"></i></a></li>
             </ul>
 
             <ul class="copyright">
@@ -817,14 +756,14 @@
    <!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/supps/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/supps/jquery-migrate-1.2.1.min.js"></script>
 
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
+   <script src="js/supps/jquery.flexslider.js"></script>
+   <script src="js/supps/waypoints.js"></script>
+   <script src="js/supps/jquery.fittext.js"></script>
+   <script src="js/supps/magnific-popup.js"></script>
+   <script src="js/supps/init.js"></script>
 
 </body>
 

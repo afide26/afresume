@@ -4,6 +4,10 @@ myResume.controller('ResumeController', ['$scope', '$http', function($scope, $ht
   $http.get('js/resumeData.json').success(function(data) {
     $scope.main = data.main;
     $scope.address = data.main.address;
+    $scope.social = data.main.social;
+    $scope.education = data.resume.education;
+    $scope.work = data.resume.work;
+    $scope.skills = data.resume.skills;
   });
   $scope.name = "Alan Fidelino"
 }]);
