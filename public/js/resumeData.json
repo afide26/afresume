@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Alan Fidelino",
-    "occupation":"Web developer aspiring to land a full-time web development job focused on building User Interface design in any of the following frameworks, AngularJS, ReactJS and Redux.",
+    "occupation":"Web developer aspiring to land a full-time web development job focused on building User Interface design and development in any of the following frameworks, AngularJS, ReactJS and Redux.",
     "description":"I am primarily a front-end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
     "image":"profilepic.jpg",
     "bio":"I am an avid learner of technology and have dedicated the last 5 years studying and sharpening my skills and knowledge in web development technologies and languages. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and be challenged to always be on my toes to start each day fresh with new challenges.",
@@ -55,19 +55,22 @@
         "school":"CareerFoundry",
         "degree":"Full Stack Web Development Specialising in Ruby on Rails",
         "graduated":"November 2016",
-        "description":"Six-month Web Development course designed to for beginners to have the skills to be an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system."
+        "description":"Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
+        "project" :"https://cfbikeberlinapp.herokuapp.com"
       },
       {
         "school":"UDEMY - Complete Node.JS Developer Course",
         "degree":"Complete Node.JS Developer Course",
         "graduated":"January 14, 2017",
-        "description":"This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, automated testing and version control"
+        "description":"This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users.",
+        "project" :"https://udemynodechatapp.herokuapp.com"
       },
       {
         "school":"UDEMY - The Web Developer Bootcamp ",
         "degree":"The Web Developer Bootcamp",
         "graduated":"February 4, 2017",
-        "description":"The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project."
+        "description":"The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project.",
+        "project" :"https://afide-yelpcamp.herokuapp.com/"
       }
     ],
     "work":[
@@ -139,84 +142,13 @@
       }
     ]
   },
-  "portfolio":{
-    "projects": [
+  "testimonials":{
+    "recommendations":[
       {
-        "title":"Coffee Cup",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustrator",
-        "tags":"Branding, Web Design",
-        "image":"coffee.jpg",
-        "url":"http://port1.com",
-        "modal":"#modal-01"
+        "text":"I had the privilege of working with Alan in one of the challenging projects at Woolworths. Alan is proactive, result-oriented, responsible and technically sound person and he is always ready to put all his energy and time to get the job done. He has exceptional troubleshooting and analytical skills in Ruby, React and Javascript. He is a great asset to the company.",
+        "user":"Saswat Mishra - AEM Lead at Woolworths",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
       },
-      {
-        "title":"Console",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Design",
-        "tags":"Branding, Web Development",
-        "image":"console.jpg",
-        "url":"http://port2.com",
-        "modal":"#modal-02"
-      },
-      {
-        "title":"Judah",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
-        "modal":"#modal-03"
-      },
-      {
-        "title":"Into The Light",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Design",
-        "image":"into-the-light.jpg",
-        "url":"http://port4.com",
-        "modal":"#modal-04"
-      },
-      {
-        "title":"Farmer Boy",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Branding",
-        "tags":"Branding, Web Design",
-        "image":"farmerboy.jpg",
-        "url":"http://port5.com",
-        "modal":"#modal-05"
-      },
-      {
-        "title":"Girl",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Graphic Design",
-        "image":"girl.jpg",
-        "url":"http://port6.com",
-        "modal":"#modal-06"
-      },
-      {
-        "title":"Origami",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustration",
-        "tags":"Branding, Illustration",
-        "image":"origami.jpg",
-        "url":"http://port7.com",
-        "modal":"#modal-07"
-      },
-      {
-        "title":"Retrocam",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Photography",
-        "image":"retrocam.jpg",
-        "url":"http://port8.com",
-        "modal":"#modal-08"
-      }
-    ]
-  },
-  "Testimonials":{
-    "testimonials":[
       {
         "text":"I had the pleasure of working with Alan in Woolworths. Alan is an exceptionally hard working professional. His ability to work under pressure and deliver a top class outcome is what makes him stand out from the crowd. He is an excellent communicator and has the ability to translate complex information in simple and exciting formats. Alan is a keen learner and is passionate about digital technology. He keeps reinventing himself by learning new skills and finding ways to use that in his role. I believe Alan's passion in the web/mobile development space holds him in good stead in this fast moving world. He will be a great asset to any organisation especially in the digital space.",
         "user":"Ani Nair - Senior Manager, Customer Experience Design ICare, Alan's previous boss, mentor and influencer",
