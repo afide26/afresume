@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Alan Fidelino",
-    "occupation":"Web developer aspiring to land a full-time web development job focused on building User Interface design and development in any of the following frameworks, AngularJS, ReactJS and Redux.",
+    "occupation":"Web developer aspiring to land a full-time web development job focused on building User Interface design and development in any of the following frameworks, AngularJS, Angular2+, ReactJS and Redux. As an avid learner of new technologies, I have made it my routine to always keep my mind active by studying daily from various sources to solidify the concepts I have learned about  web development. ",
     "description":"I am primarily a front-end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
     "image":"profilepic.jpg",
-    "bio":"I am an avid learner of technology and have dedicated the last 5 years studying and sharpening my skills and knowledge in web development technologies and languages. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and be challenged to always be on my toes to start each day fresh with new challenges.",
+    "bio":"I am an avid learner of technology and have dedicated the last 5 years studying and sharpening my skills and knowledge in web development technologies and languages. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and be challenged to always be on my toes to start each day fresh with new challenges. Starting with Ruby on Rails, I embarked on my development studies getting familiarised with the MVC type architecture. With the rise of Javascript as the language of choice for both frontend and backend, I have immersed myself in the study of web component based UI development using sound functional and object-oriented programming design patterns in the top 2 frontend Javascript frameworks of today being Angular and React. ",
     "email": "mailto:alanfidelino@yahoo.com.au",
     "phone": "tel:+61432193240",
     "address":{
@@ -93,12 +93,12 @@
       {
         "name":"Photoshop",
         "shortname": "Photoshop",
-        "level":"70%"
+        "level":"90%"
       },
       {
         "name":"Illustrator",
         "shortname": "Illustrator",
-        "level":"70%"
+        "level":"80%"
       },
       {
         "name":"CSS",
@@ -118,12 +118,17 @@
       {
         "name":"NodeJS",
         "shortname": "NodeJS",
-        "level":"80%"
+        "level":"85%"
       },
       {
         "name":"AngularJS",
         "shortname": "AngularJS",
-        "level":"70%"
+        "level":"80%"
+      },
+      {
+        "name":"Angular2+",
+        "shortname": "AngularTwoPlus",
+        "level":"80%"
       },
       {
         "name":"ReactJS and Redux",

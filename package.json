@@ -1,6 +1,7 @@
 {
-  "name": "artists",
+  "name": "Resume Site",
   "version": "1.0.0",
+  "author":"Alan Fidelino",
   "description": "",
   "main": "index.js",
   "scripts": {
