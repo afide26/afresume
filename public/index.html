@@ -67,8 +67,8 @@
 
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline">I'm {{main.name}}.</h1>
-            <h3>I'm a {{main.address.city.substring(15)}} based <span>{{main.occupation}}</span> <br><span>{{source.main.description}}</span> <a class="smoothscroll" href="#about">Start scrolling</a>
+            <h1 class="responsive-headline" ng-cloak>I'm {{main.name}}.</h1>
+            <h3 ng-cloak>I'm a {{main.address.city.substring(15)}} based <span ng-cloak>{{main.occupation}}</span> <br><span>{{source.main.description}}</span> <a class="smoothscroll" href="#about">Start scrolling</a>
             and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul class="social">
