@@ -76,7 +76,7 @@
         "school":"UDEMY - Getting Started with Angular2+ ",
         "degree":"Angular Web Development",
         "graduated":"May 10,2017",
-        "description":"This introductory course to Angular Web Development covered component based web development in a very concise manner and included very sound fundamentals in how Angular approaches single page web applications.",
+        "description":"This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
         "project" :"https://ngcribs.herokuapp.com/"
       }
     ],
@@ -85,7 +85,7 @@
         "company":"Woolworths Group",
         "title":"Communications Specialist - Front and Full Stack Web Developer",
         "years":"October 2012 - Present",
-        "description":"I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our inhouse AEM as the front end web developer for our new team site."
+        "description":"I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our in house AEM development team as the front end web developer for our new team site."
       },
       {
         "company":"Sensis White Pages",
