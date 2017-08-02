@@ -9,6 +9,9 @@
 .project-images img > a{
   cursor: pointer;
 }
+.project-links:last-child{
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 767px){
   .project-images img{
