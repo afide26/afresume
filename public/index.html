@@ -20,6 +20,7 @@
     ================================================== -->
   <link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/images.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
 
@@ -158,6 +159,11 @@
                   <h3>{{ item.school }}</h3>
                   <p class="info">{{item.degree}} <span>&bull;</span> <em class="date">{{ item.graduated }}</em></p>
                   <p>
+                    <span class="project-images">
+                      <a ng-href="{{item.project}}" target="_blank">
+                        <img src="{{item.image}}"/>
+                      </a>
+                    </span>
                     {{ item.description }}
                   </p>
                   <p><a ng-href="{{item.project}}" target="_blank"><i class="fa fa-globe"></i> Capstone Project</a></p>

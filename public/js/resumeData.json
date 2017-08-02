@@ -56,28 +56,32 @@
         "degree":"Full Stack Web Development Specialising in Ruby on Rails",
         "graduated":"November 2016",
         "description":"Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
-        "project" :"https://cfbikeberlinapp.herokuapp.com"
+        "project" :"https://cfbikeberlinapp.herokuapp.com",
+        "image":"../images/Rails.jpg"
       },
       {
         "school":"UDEMY - Complete Node.JS Developer Course",
         "degree":"Complete Node.JS Developer Course",
         "graduated":"January 14, 2017",
         "description":"This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users.",
-        "project" :"https://udemynodechatapp.herokuapp.com"
+        "project" :"https://udemynodechatapp.herokuapp.com",
+        "image":"../images/NodeMongoExpress.jpg"
       },
       {
         "school":"UDEMY - The Web Developer Bootcamp ",
         "degree":"The Web Developer Bootcamp",
         "graduated":"February 4, 2017",
         "description":"The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project.",
-        "project" :"https://afide-yelpcamp.herokuapp.com/"
+        "project" :"https://afide-yelpcamp.herokuapp.com/",
+        "image":"../images/NodeMongoExpress.jpg"
       },
       {
         "school":"UDEMY - Getting Started with Angular2+ ",
         "degree":"Angular Web Development",
         "graduated":"May 10,2017",
         "description":"This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
-        "project" :"https://ngcribs.herokuapp.com/"
+        "project" :"https://ngcribs.herokuapp.com/",
+        "image":"../images/AngularApplication.jpg"
       }
     ],
     "work":[
