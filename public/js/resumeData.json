@@ -91,10 +91,19 @@
         "school":"UDEMY - Modern React with Redux",
         "degree":"Building Web Applications in React and Redux",
         "graduated":" ",
-        "description":"The sample application was inspired by YouTube and coded in React. The landing page is a tribute to my childhood idol, Bruce Lee.",
+        "description":"The sample application was inspired by YouTube and coded in React. The landing page is a tribute to my childhood idol, Bruce Lee. Covered in this course are practical applications of ReactJS, React Router, React Forms, Redux Thunk, AJAX Requests and Deployment. ",
         "project" :"https://react-tube-bl.herokuapp.com/",
         "image":"../images/REACTDisplay.jpg",
         "repository":"https://github.com/afide26/ReactTube"
+      },
+      {
+        "school":"UDEMY - The Complete React Web Developer Course 2nd Edition",
+        "degree":"Building Web Applications in React and Redux with Unit Testing",
+        "graduated":"22 October 2017",
+        "description":"This course covered 36+ hours of lectures and code along examples that covered the best practices in using ReactJS, Redux, Jest, Enzyme, React Router, Redux Thunk, Firebase, SASS and BEM. The sample application employed most of the advanced concepts in React and Redux whilst using asynchronous data fetching and updating of data hosted in Firebase.",
+        "project" :"https://expensify-af.herokuapp.com/",
+        "image":"../images/REACTDisplay.jpg",
+        "repository":"https://github.com/afide26/expensify"
       }
     ],
     "work":[
