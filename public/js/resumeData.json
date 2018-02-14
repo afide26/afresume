@@ -52,6 +52,15 @@
   "resume":{
     "education":[
       {
+        "school":"TylerMcGinnis.com - React Fundamentals",
+        "degree":"React Basics, React Router",
+        "graduated":"12 February 208",
+        "description":"This course is part 1 of the entire React Training Program from https://tylermcginnis.com/. I only wanted to test out this course after reading the wonderful testimonials from the program's students and was hooked at the depth and wealth of knowledge in the available courses. I intend to finish this entire program to sharpen my skills in React and Redux.",
+        "project" :"https://react-battle-e4a2f.firebaseapp.com/",
+        "image":"../images/REACTDisplay.jpg",
+        "repository":"https://github.com/afide26/github-battle"
+      },
+      {
         "school":"UDEMY - Advanced CSS and Sass: Take Your CSS to the Next Level!",
         "degree":"Advanced SASS, Block Element Modifier, Image Optimisation, Flexbox and Grid System",
         "graduated":"28 January 2018",
