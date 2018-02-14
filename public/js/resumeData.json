@@ -52,14 +52,33 @@
   "resume":{
     "education":[
       {
-        "school":"CareerFoundry",
-        "degree":"Full Stack Web Development Specialising in Ruby on Rails",
-        "graduated":"November 2016",
-        "description":"Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
-        "project" :"https://cfbikeberlinapp.herokuapp.com",
-        "image":"../images/Rails.jpg",
-        "repository":"https://github.com/afide26/cfcoursapp"
+        "school":"UDEMY - Advanced CSS and Sass: Take Your CSS to the Next Level!",
+        "degree":"Advanced SASS, Block Element Modifier, Image Optimisation, Flexbox and Grid System",
+        "graduated":"28 January 2018",
+        "description":"This course covered 28 hours of lectures and code along experience on the latest technologies involving CSS. The project involved intensive coding exercises that was designed to expose the student to real word scenarios needed in styling modern websites without neglecting older browsers for compatibility. It delved into BEM, folder architecture for SASS, Flexbox and the latest Grid system layout disciplines in CSS.",
+        "project" :"https://afide26.github.io/Nexter/",
+        "image":"../images/sass.png",
+        "repository":"https://github.com/afide26/Nexter"
       },
+      {
+        "school":"UDEMY - The Complete React Web Developer Course 2nd Edition",
+        "degree":"Building Web Applications in React and Redux with Unit Testing",
+        "graduated":"22 October 2017",
+        "description":"This course covered 36+ hours of lectures and code along examples that covered the best practices in using ReactJS, Redux, Jest, Enzyme, React Router, Redux Thunk, Firebase, SASS and BEM. The sample application employed most of the advanced concepts in React and Redux whilst using asynchronous data fetching and updating of data hosted in Firebase.",
+        "project" :"https://expensify-af.herokuapp.com/",
+        "image":"../images/REACTDisplay.jpg",
+        "repository":"https://github.com/afide26/expensify"
+      },
+      {
+        "school":"UDEMY - Git a Web Developer Job: Mastering the Modern Workflow",
+        "degree":"Building Web Applications Using Webpack, Gulp, BEM, PostCSS",
+        "graduated":"04 September 2017",
+        "description":"This course covered the best practice in organised workflow for web development including modules, style imports and image optimisation. The course is 15.5 hours long from a very knowledgable instructor. I refer to this course from time to time to refresh my knowledge in the proper ways of organising code and workflow.",
+        "project" :"https://afide26.github.io/git-ts-site/",
+        "image":"../images/git.png",
+        "repository":"https://github.com/afide26/git-ts-site"
+      },
+
       {
         "school":"UDEMY - Complete Node.JS Developer Course",
         "degree":"Complete Node.JS Developer Course",
@@ -68,6 +87,16 @@
         "project" :"https://udemynodechatapp.herokuapp.com",
         "image":"../images/NodeMongoExpress.jpg",
         "repository":"https://github.com/afide26/section-9-complete-nodejs-course"
+      },
+
+      {
+        "school":"UDEMY - Getting Started with Angular2+ ",
+        "degree":"Angular Web Development",
+        "graduated":"May 10,2017",
+        "description":"This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
+        "project" :"https://ngcribs.herokuapp.com/",
+        "image":"../images/AngularApplication.jpg",
+        "repository":"https://github.com/afide26/ngCribs"
       },
       {
         "school":"UDEMY - The Web Developer Bootcamp ",
@@ -79,13 +108,13 @@
         "repository":"https://github.com/afide26/webbootcamp"
       },
       {
-        "school":"UDEMY - Getting Started with Angular2+ ",
-        "degree":"Angular Web Development",
-        "graduated":"May 10,2017",
-        "description":"This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
-        "project" :"https://ngcribs.herokuapp.com/",
-        "image":"../images/AngularApplication.jpg",
-        "repository":"https://github.com/afide26/ngCribs"
+        "school":"CareerFoundry",
+        "degree":"Full Stack Web Development Specialising in Ruby on Rails",
+        "graduated":"November 2016",
+        "description":"Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
+        "project" :"https://cfbikeberlinapp.herokuapp.com",
+        "image":"../images/Rails.jpg",
+        "repository":"https://github.com/afide26/cfcoursapp"
       },
       {
         "school":"UDEMY - Modern React with Redux",
@@ -95,21 +124,12 @@
         "project" :"https://react-tube-bl.herokuapp.com/",
         "image":"../images/REACTDisplay.jpg",
         "repository":"https://github.com/afide26/ReactTube"
-      },
-      {
-        "school":"UDEMY - The Complete React Web Developer Course 2nd Edition",
-        "degree":"Building Web Applications in React and Redux with Unit Testing",
-        "graduated":"22 October 2017",
-        "description":"This course covered 36+ hours of lectures and code along examples that covered the best practices in using ReactJS, Redux, Jest, Enzyme, React Router, Redux Thunk, Firebase, SASS and BEM. The sample application employed most of the advanced concepts in React and Redux whilst using asynchronous data fetching and updating of data hosted in Firebase.",
-        "project" :"https://expensify-af.herokuapp.com/",
-        "image":"../images/REACTDisplay.jpg",
-        "repository":"https://github.com/afide26/expensify"
       }
     ],
     "work":[
       {
         "company":"Woolworths Group",
-        "title":"Communications Specialist - Front and Full Stack Web Developer",
+        "title":"Communications Specialist - Front End Web Developer",
         "years":"October 2012 - Present",
         "description":"I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our in house AEM development team as the front end web developer for our new team site."
       },
@@ -128,14 +148,25 @@
         "shortname": "Photoshop",
         "level":"90%"
       },
+
       {
         "name":"Illustrator",
         "shortname": "Illustrator",
+        "level":"75%"
+      },
+      {
+        "name":"CSS, Grid System and Flexbox Layouts",
+        "shortname": "CSS",
         "level":"80%"
       },
       {
-        "name":"CSS",
-        "shortname": "CSS",
+        "name":"SASS",
+        "shortname": "Sass",
+        "level":"80%"
+      },
+      {
+        "name":"Post CSS",
+        "shortname": "PostCSS",
         "level":"80%"
       },
       {
@@ -177,6 +208,16 @@
         "name":"Ruby and Ruby on Rails",
         "shortname": "Ruby",
         "level":"80%"
+      },
+      {
+        "name":"NPM, Yarn",
+        "shortname": "npm",
+        "level":"75%"
+      },
+      {
+        "name":"Gulp, Webpack",
+        "shortname": "webtooling",
+        "level":"75%"
       }
     ]
   },
