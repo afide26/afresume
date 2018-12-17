@@ -1,4 +1,4 @@
-#Web Curriculum Vitae of Alan Fidelino
+# Web Curriculum Vitae of Alan Fidelino
 ### This is the concise version of my resume in digital format
 ----
 The site was built using AngularJS, CSS and Vanilla Javascript.
