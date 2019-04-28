@@ -10,7 +10,7 @@
   <!--- Basic Page Needs
    ================================================== -->
   <meta charset="utf-8">
-  <title>Alan Fidelino Resume</title>
+  <title>AF's Resume</title>
   <meta name="description" content="Portfolio Resume">
   <meta name="author" content="Alan Fidelino">
   <meta name="description" content="Resume Built With AngularJS">
@@ -72,7 +72,7 @@
     <div class="row banner">
       <div class="banner-text">
         <h1 class="responsive-headline" ng-cloak>I'm {{main.name}}.</h1>
-        <h3 ng-cloak>I'm a {{main.address.city.substring(15)}} based <span ng-cloak>{{main.occupation}}</span>
+        <h3 ng-cloak>A {{main.address.city.substring(15)}} based <span ng-cloak>{{main.occupation}}</span>
           <br><span>{{source.main.description}}</span> <a class="smoothscroll" href="#about">Start scrolling</a>
           and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
         <hr />
@@ -108,12 +108,23 @@
 
       <div class="nine columns main-col">
 
-        <h2>About Me</h2>
+        <h2>About Alan</h2>
 
         <p>
           {{ main.bio }}
         </p>
-
+        <p>
+          {{ main.bio2 }}
+        </p>
+        <p>
+          {{ main.bio3 }}
+        </p>
+        <p>
+          {{ main.bio4 }}
+        </p>
+        <p>
+          {{ main.bio5 }}
+        </p>
         <div class="row">
 
           <div class="columns contact-details">
