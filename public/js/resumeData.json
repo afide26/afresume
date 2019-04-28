@@ -53,7 +53,8 @@
         "school": "React Data Visualization - Build a Cryptocurrency",
         "degree": "React Context, Styled-Components, Grid Layout",
         "graduated": "17 April 2019",
-        "description": "Test",
+        "description": "A short course project showing the power of React Context, Grid Layout and Styled Components in Cryptocurrency dashboard.",
+        "certificate": "https://www.udemy.com/certificate/UC-Q0VLFQMW/",
         "project": "https://afide26.github.io/CryptoDash/",
         "image": "../images/REACTDisplay.jpg",
         "repository": "https://github.com/afide26/CryptoDash"
@@ -62,6 +63,7 @@
         "school": "TylerMcGinnis.com - React Fundamentals",
         "degree": "React Basics, React Router",
         "graduated": "12 February 2018",
+        "certificate": "",
         "description": "This course is part 1 of the entire React Training Program from https://tylermcginnis.com/. I only wanted to test out this course after reading the wonderful testimonials from the program's students and was hooked at the depth and wealth of knowledge in the available courses. I intend to finish this entire program to sharpen my skills in React and Redux.",
         "project": "https://react-battle-e4a2f.firebaseapp.com/",
         "image": "../images/REACTDisplay.jpg",
@@ -72,6 +74,7 @@
         "degree": "Advanced SASS, Block Element Modifier, Image Optimisation, Flexbox and Grid System",
         "graduated": "28 January 2018",
         "description": "This course covered 28 hours of lectures and code along experience on the latest technologies involving CSS. The project involved intensive coding exercises that was designed to expose the student to real word scenarios needed in styling modern websites without neglecting older browsers for compatibility. It delved into BEM, folder architecture for SASS, Flexbox and the latest Grid system layout disciplines in CSS.",
+        "certificate": "https://www.udemy.com/certificate/UC-WWS85VTO/",
         "project": "https://afide26.github.io/Nexter/",
         "image": "../images/sass.png",
         "repository": "https://github.com/afide26/Nexter"
@@ -83,12 +86,14 @@
         "description": "This course covered 36+ hours of lectures and code along examples that covered the best practices in using ReactJS, Redux, Jest, Enzyme, React Router, Redux Thunk, Firebase, SASS and BEM. The sample application employed most of the advanced concepts in React and Redux whilst using asynchronous data fetching and updating of data hosted in Firebase.",
         "project": "https://expensify-af.herokuapp.com/",
         "image": "../images/REACTDisplay.jpg",
+        "certificate": "https://www.udemy.com/certificate/UC-2QD8KQST/",
         "repository": "https://github.com/afide26/expensify"
       },
       {
         "school": "UDEMY - Git a Web Developer Job: Mastering the Modern Workflow",
         "degree": "Building Web Applications Using Webpack, Gulp, BEM, PostCSS",
-        "graduated": "04 September 2017",
+        "graduated": "06 September 2017",
+        "certificate": "https://www.udemy.com/certificate/UC-QWZ7CL54/",
         "description": "This course covered the best practice in organised workflow for web development including modules, style imports and image optimisation. The course is 15.5 hours long from a very knowledgable instructor. I refer to this course from time to time to refresh my knowledge in the proper ways of organising code and workflow.",
         "project": "https://afide26.github.io/git-ts-site/",
         "image": "../images/git.png",
@@ -121,7 +126,8 @@
         "description": "The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project.",
         "project": "https://afide-yelpcamp.herokuapp.com/",
         "image": "../images/NodeMongoExpress.jpg",
-        "repository": "https://github.com/afide26/webbootcamp"
+        "repository": "https://github.com/afide26/webbootcamp",
+        "certificate": "https://www.udemy.com/certificate/UC-1RWH7DA4/"
       },
       {
         "school": "CareerFoundry",

@@ -166,9 +166,12 @@
               {{ item.description }}
             </p>
             <p>
+              <a class="project-links" ng-if="item.certificate" ng-href="{{item.certificate}}" target="_blank">
+                <i class="fa fa-certificate"></i> Course Certificate
+              </a>&nbsp;
               <a class="project-links" ng-href="{{item.project}}" target="_blank">
                 <i class="fa fa-globe"></i> Project Link
-              </a>
+              </a>&nbsp;
               <a class="project-links" ng-href="{{item.repository}}" target="_blank">
                 <i class="fa fa-github"></i> Application Repository
               </a>
