@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Alan Fidelino",
-    "occupation": "Web developer aspiring to land a full-time web development job focused on building User Interface design and development in ReactJS and Redux. As an avid learner of new technologies, I have made it my routine to always keep my mind active by studying daily from various sources to solidify the concepts I have learned about  web development. ",
+    "occupation": "Web developer aspiring to land a full-time web development job focused on building User Interface design and development in ReactJS and other JS frameworks and libraries. As an avid learner of new technologies, I have made it my routine to always keep my mind active by studying daily from various sources to solidify the concepts I have learned about  web development. ",
     "description": "I am primarily a front end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
     "image": "profilepic.jpg",
-    "bio": "I am an avid learner of web technology and have dedicated the last 3 years studying and sharpening my skills and knowledge in web development frameworks and languages. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and to always be keenly aware to start each day fresh with new challenges. Starting with Ruby on Rails, I embarked on my development studies getting familiarised with the MVC type architecture. With the rise of Javascript as the language of choice for both front end and backend, I have immersed myself in the study of web component based UI development using sound functional and object-oriented programming design patterns in the top 2 front end Javascript frameworks of today being Angular and React. I have to say learnability is my most important and desirable asset. Anyone who has worked with me knows that I always strive to be better at what I do and this same attitude is what I demonstrate daily in my studies about web development.",
+    "bio": "I am an avid learner of web technology and have dedicated the last 5 years studying and sharpening my skills and knowledge in web development, front-end frameworks and scripting languages. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and to always be keenly aware to start each day fresh with new challenges. Starting with Ruby on Rails, I embarked on my development studies getting familiarised with the MVC type architecture. With the rise of Javascript as the language of choice for both front end and backend, I have immersed myself in the study of web component based UI development using sound functional and object-oriented programming design patterns in the top 2 front end Javascript frameworks of today being Angular and React. I have to say learnability is my most important and desirable asset. Anyone who has worked with me knows that I always strive to be better at what I do and this same attitude is what I demonstrate daily in my studies about web development.",
     "email": "mailto:alanfidelino@yahoo.com.au",
     "phone": "tel:+61432193240",
     "address": {
@@ -50,14 +50,34 @@
   },
   "resume": {
     "education": [{
-        "school": "React Data Visualization - Build a Cryptocurrency",
-        "degree": "React Context, Styled-Components, Grid Layout",
+        "school": "UDEMY: react.school_",
+        "degree": "React Data Visualization - Build a Cryptocurrency",
         "graduated": "17 April 2019",
-        "description": "A short course project showing the power of React Context, Grid Layout and Styled Components in Cryptocurrency dashboard.",
+        "description": "A short course project showing the capabilities of the new React Context, Grid Layout and Styled Components in Cryptocurrency dashboard.",
         "certificate": "https://www.udemy.com/certificate/UC-Q0VLFQMW/",
         "project": "https://afide26.github.io/CryptoDash/",
         "image": "../images/REACTDisplay.jpg",
         "repository": "https://github.com/afide26/CryptoDash"
+      },
+      {
+        "school": "Zenva Academy",
+        "degree": "Learn HTML and CSS by Creating a Responsive Company Website",
+        "graduated": "06 April 2019",
+        "description": "A short course to review basic HTML, CSS and Flexbox concepts.",
+        "certificate": "https://academy.zenva.com/certificate/07b9e686/",
+        "project": "https://afide26.github.io/photo-gallery/",
+        "image": "../images/Zenva_Logo.jpeg",
+        "repository": "https://github.com/afide26/photo-gallery"
+      },
+      {
+        "school": "Zenva Academy",
+        "degree": "Complete Guide To Bootstrap 4",
+        "graduated": "08 December 2018",
+        "certificate": "https://academy.zenva.com/certificate/2dabad22/",
+        "description": "Bootstrap 4 applied to a sample e-commerce project.",
+        "project": "https://afide26.github.io/zenva-store-front/",
+        "image": "../images/Zenva_Logo.jpeg",
+        "repository": "https://github.com/afide26/zenva-store-front"
       },
       {
         "school": "TylerMcGinnis.com - React Fundamentals",
@@ -104,7 +124,7 @@
         "school": "UDEMY - Complete Node.JS Developer Course",
         "degree": "Complete Node.JS Developer Course",
         "graduated": "January 14, 2017",
-        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users.",
+        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users. (I am in the process of retaking the course to hone my skills in NodeJS).",
         "project": "https://udemynodechatapp.herokuapp.com",
         "image": "../images/NodeMongoExpress.jpg",
         "repository": "https://github.com/afide26/section-9-complete-nodejs-course"
@@ -117,7 +137,8 @@
         "description": "This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
         "project": "https://ngcribs.herokuapp.com/",
         "image": "../images/AngularApplication.jpg",
-        "repository": "https://github.com/afide26/ngCribs"
+        "repository": "https://github.com/afide26/ngCribs",
+        "certificate": "https://www.udemy.com/certificate/UC-TM0HLUUO/"
       },
       {
         "school": "UDEMY - The Web Developer Bootcamp ",
@@ -136,7 +157,8 @@
         "description": "Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
         "project": "https://cfbikeberlinapp.herokuapp.com",
         "image": "../images/Rails.jpg",
-        "repository": "https://github.com/afide26/cfcoursapp"
+        "repository": "https://github.com/afide26/cfcoursapp",
+        "certificate": "https://github.com/afide26/afresume/blob/master/public/images/CareerFoundry_Certificate_Alan%20Fidelino.pdf"
       },
       {
         "school": "UDEMY - Modern React with Redux",
@@ -148,11 +170,18 @@
         "repository": "https://github.com/afide26/ReactTube"
       }
     ],
-    "work": [{
+    "work": [
+      {
+      "company": "Aquent",
+      "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
+      "years": "4 February 2019 - Present",
+      "description": "My current role involves day-to-day task of maintaining and updating the front-end design and development of various internal websites for Woolworths Group team members. Working as the lead front-end developer of the Adobe Experience Development (AEM) team, I have the privilege of working and developing websites in an Agile environment, using JIRA, Jenkins, Git and other related technologies. The core project I am working on at the moment is for the Primary Connect business, a member of the Woolworths Group of companies. I have singlehandedly designed the UX and developed the User Interface with the help of Red Jelly, a digital marketing agency. Upon completion, the sites will cater to clients from Australia and New Zealand."
+    },
+    {
         "company": "Woolworths Group",
         "title": "Communications Specialist - Front End Web Developer",
-        "years": "October 2012 - Present",
-        "description": "I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our in house AEM development team as the front end web developer for our new team site."
+        "years": "October 2012 - 31 January 2019",
+        "description": "I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our in house AEM development team as the front end web developer for our new team site. Other web development projects include: Web-based Thank You Recognition card and Online FAQ portal."
       },
       {
         "company": "Sensis White Pages",
