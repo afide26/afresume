@@ -5,10 +5,10 @@
     "description": "I am primarily a front end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
     "image": "profilepic.jpg",
     "bio": "An voracious learner who has dedicated the last 3 years studying and sharpening his skills and knowledge in web development, front-end frameworks and scripting languages. His web development journey started with Ruby on Rails, with a 6 month online course certified by Careerfoundry.com.",
-    "bio2":"Whilst in the process of completing his web development course certificate, he volunteered and readily used his newly acquired skills in designing and developing the IT information website used by over 1200 IT team members at Woolworths. Through the years, he continuously updated the site, managed its contents and performance (using Google Analytics) until it was deployed, based on higher management's recommendations to the Adobe Experience Manager platform. This event also allowed him another opportunity to demonstrate his skills to update the design and core functionality of the site and experience web development within a team using agile methodology.",
-    "bio3":  "Alan has been sought after by peers for coaching and advice in web development. He has been sought as a resource in various projects when the pool of developers have been scarce and has helped in UI debugging for AngularJS internal applications and most recently the development of online recognition cards for 3 Woolworths Groups banners, namely Woolworths Group, Woolworths Supermarkets and BigW.",
-    "bio4":"At the moment, Alan is updating his skills in ReactJS Context, Hooks and Redux by doing sample projects showing advance usage of these concepts. He also has a regular schedule of revisiting previous courses in order to refresh his skills in other related technologies.",
-    "bio5":"His goal is to become a Senior Front-End Developer in the near future and become a Full Stack Web Developer in 3 years time.",
+    "bio2": "Whilst in the process of completing his web development course certificate, he volunteered and readily used his newly acquired skills in designing and developing the IT information website used by over 1200 IT team members at Woolworths. Through the years, he continuously updated the site, managed its contents and performance (using Google Analytics) until it was deployed, based on higher management's recommendations to the Adobe Experience Manager platform. This event also allowed him another opportunity to demonstrate his skills to update the design and core functionality of the site and experience web development within a team using agile methodology.",
+    "bio3": "Alan has been sought after by peers for coaching and advice in web development. He has been sought as a resource in various projects when the pool of developers have been scarce and has helped in UI debugging for AngularJS internal applications and most recently the development of online recognition cards for 3 Woolworths Groups banners, namely Woolworths Group, Woolworths Supermarkets and BigW.",
+    "bio4": "At the moment, Alan is continuously improving his skills in ReactJS Context, Hooks and Redux by doing sample projects showing advance usage of these concepts. He also has a regular schedule of revisiting previous courses in order to refresh his skills in other related technologies.",
+    "bio5": "His goal is to become a Senior Front-End Developer in the near future and become a Full Stack Web Developer in 3 years time.",
     "email": "mailto:alanfidelino@yahoo.com.au",
     "phone": "tel:+61432193240",
     "address": {
@@ -67,7 +67,7 @@
         "school": "Zenva Academy",
         "degree": "Learn HTML and CSS by Creating a Responsive Company Website",
         "graduated": "06 April 2019",
-        "description": "A short course to review basic HTML, CSS and Flexbox concepts.",
+        "description": "A short course to review basic HTML, CSS, JavaScript, jQuery, Bootstrap 4 and Flexbox.",
         "certificate": "https://academy.zenva.com/certificate/07b9e686/",
         "project": "https://afide26.github.io/photo-gallery/",
         "image": "../images/Zenva_Logo.jpeg",
@@ -78,7 +78,7 @@
         "degree": "Complete Guide To Bootstrap 4",
         "graduated": "08 December 2018",
         "certificate": "https://academy.zenva.com/certificate/2dabad22/",
-        "description": "Bootstrap 4 applied to a sample e-commerce project.",
+        "description": "A review of Bootstrap 4. The demo project shows an e-commerce site with  the new features of the new Bootstrap 4.",
         "project": "https://afide26.github.io/zenva-store-front/",
         "image": "../images/Zenva_Logo.jpeg",
         "repository": "https://github.com/afide26/zenva-store-front"
@@ -88,7 +88,7 @@
         "degree": "React Basics, React Router",
         "graduated": "12 February 2018",
         "certificate": "",
-        "description": "This course is part 1 of the entire React Training Program from https://tylermcginnis.com/. I only wanted to test out this course after reading the wonderful testimonials from the program's students and was hooked at the depth and wealth of knowledge in the available courses. I intend to finish this entire program to sharpen my skills in React and Redux.",
+        "description": "This course is part 1 of the entire React Training Program from https://tylermcginnis.com/. The demo project's objective is to train people to code in Native JavaScript using the React Library, in a GitHub profile battle game project.",
         "project": "https://react-battle-e4a2f.firebaseapp.com/",
         "image": "../images/REACTDisplay.jpg",
         "repository": "https://github.com/afide26/github-battle"
@@ -128,7 +128,7 @@
         "school": "UDEMY - Complete Node.JS Developer Course",
         "degree": "Complete Node.JS Developer Course",
         "graduated": "January 14, 2017",
-        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users. (I am in the process of retaking the course to hone my skills in NodeJS).",
+        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users.",
         "project": "https://udemynodechatapp.herokuapp.com",
         "image": "../images/NodeMongoExpress.jpg",
         "repository": "https://github.com/afide26/section-9-complete-nodejs-course"
@@ -155,49 +155,68 @@
         "certificate": "https://www.udemy.com/certificate/UC-1RWH7DA4/"
       },
       {
+        "school": "UDEMY - Modern React with Redux",
+        "degree": "Building Web Applications in React and Redux",
+        "graduated": " ",
+        "description": "The sample application was inspired by YouTube and coded in React. The landing page is a tribute to Alan's childhood idol, Bruce Lee. Covered in this course are practical applications of ReactJS, React Router, React Forms, AJAX Requests and Deployment. ",
+        "project": "https://react-tube-bl.herokuapp.com/",
+        "image": "../images/REACTDisplay.jpg",
+        "repository": "https://github.com/afide26/ReactTube"
+      },
+      {
         "school": "CareerFoundry",
         "degree": "Full Stack Web Development Specialising in Ruby on Rails",
         "graduated": "November 2016",
         "description": "Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
-        "project": "https://cfbikeberlinapp.herokuapp.com",
         "image": "../images/Rails.jpg",
         "repository": "https://github.com/afide26/cfcoursapp",
         "certificate": "https://github.com/afide26/afresume/blob/master/public/images/CareerFoundry_Certificate_Alan%20Fidelino.pdf"
-      },
-      {
-        "school": "UDEMY - Modern React with Redux",
-        "degree": "Building Web Applications in React and Redux",
-        "graduated": " ",
-        "description": "The sample application was inspired by YouTube and coded in React. The landing page is a tribute to my childhood idol, Bruce Lee. Covered in this course are practical applications of ReactJS, React Router, React Forms, Redux Thunk, AJAX Requests and Deployment. ",
-        "project": "https://react-tube-bl.herokuapp.com/",
-        "image": "../images/REACTDisplay.jpg",
-        "repository": "https://github.com/afide26/ReactTube"
       }
     ],
-    "work": [
+    "work": [{
+        "company": "Aquent",
+        "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
+        "years": "4 February 2019 - Present",
+        "description": "This current role involves day-to-day task of maintaining and updating the front-end design and development of various internal websites for Woolworths Group team members. As the front-end developer of the Adobe Experience Development (AEM) team, Alan has the privilege of working and developing websites in an Agile environment, using JIRA, Jenkins, Git and other related technologies. The core project being worked on at the moment is for an external website for one of the businesses belonging to the Woolworths Group of companies. Upon completion, the sites will cater to clients from Australia and New Zealand.",
+        "accomplishments": [
+          "Designing the responsive mock-up templates (UX) for the Primary Connect Website",
+          "Front-end Development of the new Primary Connect website",
+          "Progressive enhancement of front-end features for Dan's Central",
+          "User Interface upgrade and design of the Woolworths Group Team Benefits site."
+        ]
+      },
       {
-      "company": "Aquent",
-      "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
-      "years": "4 February 2019 - Present",
-      "description": "My current role involves day-to-day task of maintaining and updating the front-end design and development of various internal websites for Woolworths Group team members. Working as the lead front-end developer of the Adobe Experience Development (AEM) team, I have the privilege of working and developing websites in an Agile environment, using JIRA, Jenkins, Git and other related technologies. The core project I am working on at the moment is for an external website for one of the businesses belonging to the Woolworths Group of companies. I have singlehandedly designed the UX and developed the User Interface with the help of Red Jelly, a digital marketing agency. Upon completion, the sites will cater to clients from Australia and New Zealand."
-    },
-    {
         "company": "Woolworths Group",
         "title": "Communications Specialist - Front End Web Developer",
         "years": "October 2012 - 31 January 2019",
-        "description": "I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, I designed, developed and maintained the group IT website using the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager, I had a very good working relationship with our in house AEM development team as the front end web developer for our new team site. Other web development projects include: Web-based Thank You Recognition card and Online FAQ portal."
+        "description": "As a fulltime Communications Specialist with skills in digital media, graphic design, Alan volunteered to develop the Information Technology intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, Alan designed, developed and maintained the group IT website using his knowledge of the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager (AEM), the opportunity to work with the in-house AEM development team as a front-end web developer for a period of 3 months.",
+        "accomplishments": [
+          "Development and Deployment of the Woolworths Group IT Intranet Website",
+          "Support for the front-end development of Supply Chain website",
+          "Front-end development of Online Thank You Cards for the Woolworths Group",
+          "Front-end development and support for the Woolworths Group Cloud solution website",
+          "Development of Tap-My-Back inspired recognition site - ShoutOut"
+        ]
       },
       {
         "company": "Sensis White Pages",
         "title": "Media Specialist/Online Specialist",
         "years": "April 2007 - October 2012",
-        "description": "My role entailed providing detailed analysis of businesses being serviced by the top account executives in White Pages in order to match the digital and print solutions offered by the company to the client's business needs in terms of digital presence. Other roles include digital project management, online coaching and sharing of new trends in web technologies that helped the team in their digital knowledge. In my last few months with the company, I led the development of an integrated sales portal where sales staff can view their reports and notes together with their group sales in a project management capacity."
+        "description": "Subject matter expert for White Pages' digital products. Provided detailed analysis of businesses serviced by the top account executives in White Pages to match the digital and print solutions offered by the company to the client's business needs. Other roles included digital project management, online coaching and sharing of new trends in web technologies that helped the Premium Sales team with their digital knowledge.",
+        "accomplishments": [
+          "Conceptualized and managed the project completion of activity-based sales integration for the Sensis White Pages sales national team site.",
+          "Value proposition subject matter expert for White Pages Digital - NSW"
+        ]
       }
     ],
     "passion": {
       "description": "I am a voracious learner and have kept myself up to date with the most relevant skills in these demanding times. I have to say learnability is my most important and desirable skill. Anyone who has worked with me knows that I always strive to be better at what I do and this same attitude is what I demonstrate daily in my studies about web development. Most recently I have focused on learning Functional and Objective Programming in Javascript to be able to utilise these skills in my future career goals. My development is always geared towards striking a balance in gaining analytical and artistic knowledge that I use as tools of the trade."
     },
     "skills": [{
+        "name": "AEM - Authoring & Content Management",
+        "shortname": "aem",
+        "level": "95%"
+      }, {
         "name": "Photoshop",
         "shortname": "Photoshop",
         "level": "90%"
