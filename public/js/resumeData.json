@@ -20,7 +20,8 @@
     },
     "website": "https://cfbikeberlinapp.herokuapp.com",
     "resumedownload": "http://something.com",
-    "social": [{
+    "social": [
+      {
         "name": "facebook",
         "url": "https://www.facebook.com/freeflowing.reviews",
         "className": "fa fa-facebook"
@@ -53,7 +54,17 @@
     ]
   },
   "resume": {
-    "education": [{
+    "education": [
+      {
+        "school": "Stone River eLearning",
+        "degree": "Starting with REST APIs",
+        "graduated": "05 May 2019",
+        "description": "Starter course on REST APIs covering theory and application. Included MongoDB, Express, BodyParser and Postman",
+        "project": "https://node-on-ubuntu-16-afidedev26605864.codeanyapp.com/tasks",
+        "image": "../images/NodeMongoExpress.jpg",
+        "certificate": "https://stoneriverelearning.com/courses/206872/certificate?certificate_first_issued=true"
+      },
+      {
         "school": "UDEMY: react.school_",
         "degree": "React Data Visualization - Build a Cryptocurrency",
         "graduated": "17 April 2019",
@@ -173,7 +184,8 @@
         "certificate": "https://github.com/afide26/afresume/blob/master/public/images/CareerFoundry_Certificate_Alan%20Fidelino.pdf"
       }
     ],
-    "work": [{
+    "work": [
+      {
         "company": "Aquent",
         "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
         "years": "4 February 2019 - Present",
@@ -212,11 +224,13 @@
     "passion": {
       "description": "I am a voracious learner and have kept myself up to date with the most relevant skills in these demanding times. I have to say learnability is my most important and desirable skill. Anyone who has worked with me knows that I always strive to be better at what I do and this same attitude is what I demonstrate daily in my studies about web development. Most recently I have focused on learning Functional and Objective Programming in Javascript to be able to utilise these skills in my future career goals. My development is always geared towards striking a balance in gaining analytical and artistic knowledge that I use as tools of the trade."
     },
-    "skills": [{
+    "skills": [
+      {
         "name": "AEM - Authoring & Content Management",
         "shortname": "aem",
         "level": "95%"
-      }, {
+      },
+      {
         "name": "Photoshop",
         "shortname": "Photoshop",
         "level": "90%"
@@ -295,7 +309,8 @@
     ]
   },
   "testimonials": {
-    "recommendations": [{
+    "recommendations": [
+      {
         "text": "I had the privilege of working with Alan in one of the challenging projects at Woolworths. Alan is proactive, result-oriented, responsible and technically sound person and he is always ready to put all his energy and time to get the job done. He has exceptional troubleshooting and analytical skills in Ruby, React and Javascript. He is a great asset to the company.",
         "user": "Saswat Mishra - AEM Lead at Woolworths",
         "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"

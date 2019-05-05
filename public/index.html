@@ -215,7 +215,7 @@
               <a class="project-links" ng-if="item.project" ng-href="{{item.project}}" target="_blank">
                 <i class="fa fa-globe"></i> Project Link
               </a>&nbsp;
-              <a class="project-links" ng-href="{{item.repository}}" target="_blank">
+              <a class="project-links" ng-if="item.repository" ng-href="{{item.repository}}" target="_blank">
                 <i class="fa fa-github"></i> Application Repository
               </a>
             </p>
